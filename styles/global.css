@@ -3,3 +3,18 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --brand-color: #EF5F4C;
+    --bg-color: #FFFFFF;
+    --surface-color: #F5F5F5;
+    --skeleton-color: #D9D9D9;
+    --shape-transparency: rgba(255, 255, 255, 0.568);
+    --text-color-primary: #313131;
+    --text-color-secondary: #6C6C6C;
+}
+
+body{
+    color: var(--text-color-secondary);
+    background-color: var(--bg-color);
+}
