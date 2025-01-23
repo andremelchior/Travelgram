@@ -4,6 +4,9 @@ footer{
     gap: 24px;
     font: 14px/150% var(--font-family);
 }
+footer span{
+    cursor: pointer;
+}
 footer span:nth-child(1){
     margin-right: auto;
 }
